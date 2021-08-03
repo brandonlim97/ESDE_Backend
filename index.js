@@ -9,7 +9,7 @@ app.use('*', cors());
 
 
 //Server Settings
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const path = require("path");
 const bodyParser = require("body-parser");
 const bootstrap = require("./src/bootstrap");
@@ -81,5 +81,5 @@ router.use((err, req, res, next) => {
 
 app.listen(PORT, err => {
     if (err) return console.log(`Cannot Listen on PORT: ${PORT}`);
-    console.log(`Server is Listening on: http://52.20.150.86:${PORT}/`);
+    console.log(`Server is Listening on: http://13.213.245.125:${PORT}/`);
 });
