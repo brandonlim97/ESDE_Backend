@@ -1,0 +1,59 @@
+service: serverless-backend-project
+
+frameworkVersion: '2'
+
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: '20201221'
+  region: us-east-1
+  iamRoleStatements:
+        - Effect: Allow
+          Action: dynamodb:*
+          Resource: 
+            - arn:aws:dynamodb:us-east-1:268610175754:table/User
+
+            
+
+            
+
+
+functions:
+  # hello:
+  #   handler: src/hello.handler
+  #   events:
+  #     - http:
+  #         path: /
+  #         method: get
+  registerUser: 
+    handler: src/registerUser.handler
+    events:
+      - http:
+          path: /api/register
+          method: post
+
+  getAllUser: 
+    handler: src/getAllUser.handler
+    events:
+      - http:
+          path: /api/getUser
+          method: get
+
+
+resources:
+  Resources:
+   User:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: User
+        BillingMode: PAY_PER_REQUEST
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+
+  
+     

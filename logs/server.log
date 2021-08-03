@@ -1,0 +1,15 @@
+error: Jun-27-2021 21:18:12: 	500 || Internal Server Error, incorrect password: sgdehdhdrgt 
+{"message":"\t500 || Internal Server Error, incorrect password: sgdehdhdrgt ","level":"error","timestamp":"Jun-27-2021 21:19:58"}
+{"message":"\t500 || Internal Server Error, incorrect password: wsgtdshbrdthrdthedhgrg ","level":"error","timestamp":"Jun-27-2021 23:01:56"}
+{"message":"\t200 || OK, successful login ","level":"info","timestamp":"Jul-17-2021 02:33:32"}
+{"message":"\t200 || OK, successful login ","level":"info","timestamp":"Jul-17-2021 14:15:49"}
+{"message":"\t500 || Internal Server Error","level":"error","timestamp":"Jul-17-2021 14:22:52"}
+{"message":"\t500 || Internal Server Error","level":"error","timestamp":"Jul-17-2021 14:22:54"}
+{"message":"\t500 || Internal Server Error","level":"error","timestamp":"Jul-17-2021 14:22:55"}
+{"message":"\t500 || Internal Server Error","level":"error","timestamp":"Jul-17-2021 21:06:13"}
+{"message":"\t500 || Internal Server Error","level":"error","timestamp":"Jul-17-2021 21:15:45"}
+{"message":"\t200 || OK, successful login ","level":"info","timestamp":"Jul-17-2021 22:07:53"}
+{"message":"\t500 || Internal Server Error","level":"error","timestamp":"Jul-21-2021 00:47:45"}
+{"message":"\t200 || OK, successful login ","level":"info","timestamp":"Jul-21-2021 01:50:15"}
+{"message":"\t200 || OK, successful login ","level":"info","timestamp":"Jul-25-2021 19:26:38"}
+{"message":"\t200 || OK, successful login ","level":"info","timestamp":"Jul-25-2021 19:32:27"}
