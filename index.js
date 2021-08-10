@@ -81,5 +81,5 @@ router.use((err, req, res, next) => {
 
 app.listen(PORT, err => {
     if (err) return console.log(`Cannot Listen on PORT: ${PORT}`);
-    console.log(`Server is Listening on: http://13.213.245.125:${PORT}/`);
+    console.log(`Is Listening on: http://13.213.245.125:${PORT}/`);
 });
